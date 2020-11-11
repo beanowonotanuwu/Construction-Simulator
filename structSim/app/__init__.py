@@ -1,6 +1,7 @@
 ### IMPORTS                         ###
 from tkinter import Tk      ## for inheritance
 from tkinter import ttk     ## ttk > tk; tk is not maintained in python 3
+from app import frames
 ### IMPORTS                         ###
 ### APP CLASS                       ###
 class App(Tk):
