@@ -1,0 +1,5 @@
+{
+    "dependencies": {
+        "easyyaml": "git://github.com/ZQPei/easyyaml.git"
+    }
+}
