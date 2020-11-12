@@ -1,8 +1,13 @@
 sel_construct:
-  initialdir    : /
-  title         : Select Construction
-  filetypes     : !!python/tuple [
-    !!python/tuple [
-      Construction Files, "*.const"    # ex: my_car.const
+  cmd:
+    initialdir    : /
+    title         : Select Construction
+    filetypes     : !!python/tuple [
+      !!python/tuple [
+        Construction Files, "*.const"    # ex: my_car.const
+      ]
     ]
-  ]
+  text: Select Construction
+  style: Big.TButton
+  col: 0
+  row: 0
