@@ -1,0 +1,8 @@
+sel_construct:
+  initialdir    : /
+  title         : Select Construction
+  filetypes     : !!python/tuple [
+    !!python/tuple [
+      Construction Files, "*.const"    # ex: my_car.const
+    ]
+  ]
