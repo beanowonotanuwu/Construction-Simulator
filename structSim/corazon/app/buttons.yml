@@ -1,0 +1,13 @@
+### BUTTONS                   ###
+big:
+  ## Text                       ##
+  font      : !!python/tuple [
+    Helvetica,  # family
+    50  # size
+  ]
+  ## Text                       ##
+  ## Dimensions                 ##
+  width     : 20
+  height    : 1
+  ## Dimensions                 ##
+### BUTTONS                   ###
