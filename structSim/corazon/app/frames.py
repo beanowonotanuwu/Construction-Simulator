@@ -6,7 +6,11 @@ from tkinter import (
 )
 import corazon.util as util
 from easyyaml import load
+from warnings import filterwarnings
 ### IMPORTS                         ###
+### WARNINGS                        ###
+filterwarnings("ignore", category=Warning)
+### WARNINGS                        ###
 ### LOADS                           ###
 with util.setpath(r'Construction-Simulator\structSim\corazon\app', 2) as _:
     btn_styles = load('buttons.yml').to_dict()
