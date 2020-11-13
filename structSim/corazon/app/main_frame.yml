@@ -11,3 +11,18 @@ sel_construct:
   style: Big.TButton
   col: 0
   row: 0
+
+edit_construct:
+  cmd:
+    initialdir    : /
+    title         : Edit Construction
+    filetypes     : !!python/tuple [
+      !!python/tuple [
+        Construction Files, "*.const"
+      ]
+    ]
+  text: Edit Construction
+  style: Big.TButton
+  col: 0
+  row: 1
+  pady: 40
