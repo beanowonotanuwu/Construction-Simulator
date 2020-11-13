@@ -15,8 +15,7 @@ filterwarnings("ignore", category=Warning)
 with util.setpath(r'Construction-Simulator\structSim\corazon\app', 2) as _:
     btn_styles = load('buttons.yml').to_dict()
     main_frame = load('main_frame.yml').to_dict()
-    
-
+    load_construct = load('load_construct.yml').to_dict()
 ### LOADS                           ###
 ### FRAMES                          ###
 class Main(Frame):

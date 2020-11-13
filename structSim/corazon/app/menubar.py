@@ -2,8 +2,9 @@
 from tkinter import ttk     # ttk > tk; tk is not maintained in python 3
 from tkinter import filedialog  # for opening files
 from tkinter import (
-    Menu
+    Menu, Label
 )
+from tkinter import font
 ### IMPORTS                         ###
 ### MENU                            ###
 class Menubar(Menu):
