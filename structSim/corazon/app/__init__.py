@@ -17,7 +17,7 @@ class App(Tk):
 
         self.frames = {}
 
-        for F in (frames.Main,):
+        for F in frames.FRAMES:
             frame = F(container, self)
             self.frames[F] = frame
             frame.grid(row=0, column=0, sticky="nsew")

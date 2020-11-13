@@ -26,3 +26,9 @@ edit_construct:
   col: 0
   row: 1
   pady: 40
+
+settings:
+  text: Settings
+  style: Big.TButton
+  col: 0
+  row: 2

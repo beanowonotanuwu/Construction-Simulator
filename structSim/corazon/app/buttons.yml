@@ -10,4 +10,7 @@ big:
   width     : 20
   height    : 1
   ## Dimensions                 ##
+  ## Border                     ##
+  # borderwidth: 0
+  ## Border                     ##
 ### BUTTONS                   ###
