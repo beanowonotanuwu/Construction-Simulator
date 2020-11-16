@@ -1,13 +1,10 @@
 ### IMPORTS                         ###
 from tkinter import ttk     # ttk > tk; tk is not maintained in python 3
 from tkinter import filedialog  # for opening files
-from tkinter import (
-    Menu, Label
-)
-from tkinter import font
+from tkinter import Menu as tk_Menu
 ### IMPORTS                         ###
 ### MENU                            ###
-class Menubar(Menu):
+class Menubar(tk_Menu):
     def __init__(self, master, *args, **kwargs):
         ## Init                         ##
         super().__init__(master=master, *args, **kwargs)
@@ -34,7 +31,7 @@ class Menubar(Menu):
         ## Cascades                     ##
 ### MENU                            ###
 ### CONSTRUCT MENU                  ###
-class Construct(Menu):
+class Construct(tk_Menu):
     def __init__(self, master, *args, **kwargs):
         ## Init                         ##
         super().__init__(master=master, *args, **kwargs)
@@ -48,7 +45,7 @@ class Construct(Menu):
         ## Commands                     ##
 ### CONSTRUCT MENU                  ###
 ### VIEW MENU                       ###
-class ViewMenu(Menu):
+class ViewMenu(tk_Menu):
     def __init__(self, master, *args, **kwargs):
         ## Init                         ##
         super().__init__(master=master, *args, **kwargs)
@@ -58,7 +55,7 @@ class ViewMenu(Menu):
         ## Commands                     ##
 ### VIEW MENU                       ###
 ### SIMULATE MENU                   ###
-class Simulate(Menu):
+class Simulate(tk_Menu):
     def __init__(self, master, *args, **kwargs):
         ## Init                         ##
         super().__init__(master=master, *args, **kwargs)
