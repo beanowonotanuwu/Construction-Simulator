@@ -1,7 +1,7 @@
 ### BUTTONS                   ###
 big:
   ## Name                       ##
-  name: &name Big.TButton
+  name: Big.TButton
   ## Name                       ##
   ## Text                       ##
   font      : !!python/tuple [
@@ -17,6 +17,6 @@ big:
   # borderwidth: 0
   ## Border                     ##
 ### BUTTONS                   ###
-NAMES: !!python/tuple [
-  *name
-]
+NAMES:
+  big: Big.TButton  # try to unhard code this with &tag *tag
+IGNORE: !!python/tuple ['name']

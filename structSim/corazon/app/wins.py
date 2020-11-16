@@ -7,7 +7,8 @@ from corazon.app.frames import main
 class Main(tk_Tk):
     ## Init                                 ##
     def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
+        print("initialized")
+        tk_Tk.__init__(self, *args, **kwargs)
         # container                             #
         container = tk_Frame(self)
         container.pack(side="top", fill="both", expand=True)
@@ -26,7 +27,6 @@ class Main(tk_Tk):
     ## Init                                 ##
     ## Funcs                                ##
     def show_frame(self, cont):
-
         frame = self.frames[cont]
         frame.tkraise()
     ## Funcs                                ##
