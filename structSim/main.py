@@ -1,5 +1,6 @@
 ### IMPORTS                         ###
 from corazon.app.wins import Main
+### FRAMES CONSTANT                 ###
 from corazon.app.menubar import Menubar
 ### IMPORTS                         ###
 ### __MAIN__                        ###

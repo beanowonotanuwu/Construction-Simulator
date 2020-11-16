@@ -1,1 +1,1 @@
-import main_frame as main
+import corazon.app.frames.main_frame as main

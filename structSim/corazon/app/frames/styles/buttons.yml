@@ -1,5 +1,8 @@
 ### BUTTONS                   ###
 big:
+  ## Name                       ##
+  name: &name Big.TButton
+  ## Name                       ##
   ## Text                       ##
   font      : !!python/tuple [
     Helvetica,  # family
@@ -14,3 +17,6 @@ big:
   # borderwidth: 0
   ## Border                     ##
 ### BUTTONS                   ###
+NAMES: !!python/tuple [
+  *name
+]
